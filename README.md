@@ -13,6 +13,4 @@ Godot Improvement Proposal (GIP) stored in text format in this
 repository.
 
 **Note:** Work in progress! Bear with us while we discuss and define
-the exact workflow that we want to use. Please refrain from opening
-proposals on this repository just yet, unless you are among the core
-contributors and discuss it beforehand.
+the exact workflow that we want to use.
