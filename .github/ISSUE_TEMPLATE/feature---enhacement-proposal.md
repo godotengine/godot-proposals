@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Describe the project you are working on:**
+**You should have a live or in-development project/task/tool that you cannot complete as desired without this proposal. If so, please describe it:**
 
 **Describe how this feature / enhancement will help your project:**
 
