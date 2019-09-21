@@ -9,9 +9,9 @@ assignees: ''
 
 **Describe the project you are working on:**
 
-**Describe how this feature / enhancement will help your project:**
+**Describe how this feature/enhancement will help your project:**
 
-**Show a mock up screenshots/video or a flow diagram explaining how your proposal will work:**
+**Show a mock-up screenshots/video or a flow diagram explaining how your proposal will work:**
 
 **Describe implementation detail for your proposal (in code), if possible:**
 
