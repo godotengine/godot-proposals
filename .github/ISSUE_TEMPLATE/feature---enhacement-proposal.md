@@ -9,7 +9,9 @@ assignees: ''
 
 **Describe the project you are working on:**
 
-**Describe how this feature / enhancement will help your project:**
+**Describe the problem or limitation you are having in your project:**
+
+**Describe how this feature / enhancement will help you overcome this problem or limitation:**
 
 **Show a mock up screenshots/video or a flow diagram explaining how your proposal will work:**
 
