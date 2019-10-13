@@ -32,13 +32,17 @@ Start by reaching out on the community channels (Reddit, Discord, IRC, etc.
 see the [Community Channels](http://docs.godotengine.org/en/stable/community/channels.html) doc),
 then create your proposal once you have gained some interest.
 
-5. You can make a PR implementing the feature in the main repository before 
+5. If a proposal receives little or no engagement/discussion after 30 days,
+it will be closed. However, if you can build up interest after it is closed,
+the proposal can be reopened.
+
+6. You can make a PR implementing the feature in the main repository before 
 making a proposal. However, if it is a large change, a core developer may 
 require that you make a proposal before your PR can be merged. It is always
 better to make and discuss a proposal before spending your time implementing
 a new feature.
 
-6. If you or another user is capable of making a PR, include that fact in 
+7. If you or another user is capable of making a PR, include that fact in 
 the issue or in a subsequent comment so that a core contributor can 
 fast-track the approval process.
 
