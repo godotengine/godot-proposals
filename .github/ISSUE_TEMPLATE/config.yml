@@ -1,0 +1,7 @@
+# All proposals must follow the template, so disallow creating blank issues.
+blank_issues_enabled: false
+
+contact_links:
+  - name: Main Godot repository
+  - url: https://github.com/godotengine/godot
+  - about: Please report bugs on the main Godot repository, not here.
