@@ -1,5 +1,5 @@
 ---
-name: Feature / Enhacement Proposal
+name: Feature / Enhancement proposal
 about: 'Open a new proposal'
 title: ''
 labels: ''
