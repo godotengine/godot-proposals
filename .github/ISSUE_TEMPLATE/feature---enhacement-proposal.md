@@ -1,11 +1,16 @@
 ---
 name: Feature / Enhacement Proposal
-about: 'Please fill the questions below:'
+about: 'Open a new proposal'
 title: ''
 labels: ''
 assignees: ''
 
 ---
+
+<!--
+Please fill in *all* the questions below and don't remove any of them.
+Proposals not following the template below will be closed immediately.
+-->
 
 **Describe the project you are working on:**
 
