@@ -16,7 +16,7 @@ Proposals not following the template below will be closed immediately.
 
 **Describe the problem or limitation you are having in your project:**
 
-**Describe how this feature / enhancement will help you overcome this problem or limitation:**
+**Describe the feature / enhancement and how it helps to overcome the problem or limitation:**
 
 **Show a mock up screenshots/video or a flow diagram explaining how your proposal will work:**
 
