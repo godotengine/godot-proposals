@@ -18,9 +18,7 @@ Proposals not following the template below will be closed immediately.
 
 **Describe the feature / enhancement and how it helps to overcome the problem or limitation:**
 
-**Show a mock up screenshots/video or a flow diagram explaining how your proposal will work:**
-
-**Describe implementation detail for your proposal (in code), if possible:**
+**Describe how your proposal will work, with code, pseudocode, mockups, and/or diagrams:**
 
 **If this enhancement will not be used often, can it be worked around with a few lines of script?:**
 
