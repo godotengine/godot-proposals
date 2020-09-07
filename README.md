@@ -43,6 +43,11 @@ fast-track the approval process.
 If your proposal was closed because the template was not filled out, then 
 fill out the template and ask the person who closed the issue to re-open it.
 
+If your proposal was closed as a duplicate and had a different approach to solving
+the problem described in the linked proposal, please comment in the linked proposal
+with your own proposal. You don't need to copy-paste your whole proposal's text.
+Instead, rephrase the main ideas and add mockups if needed.
+
 If your proposal was closed because of lack of interest, then try to build up
 some interest on the [Community Channels](http://docs.godotengine.org/en/stable/community/channels.html)
 and then ask the person who closed the issue to re-open it.
