@@ -1,5 +1,4 @@
-Godot Improvement Proposals
-===========================
+# Godot Improvement Proposals
 
 In order to improve the workflow of proposing, discussing, reviewing
 and later on implementing features or enhancements in Godot Engine,
@@ -19,10 +18,10 @@ the template is not filled out or is filled out improperly, it will be closed.
 2. All proposals must be linked to a substantive use-case. In justifying your
 proposal, it is not enough to say it would be "nice" or "helpful". Use the
 template to show how Godot is not currently meeting your needs and then
-explain how your proposal will meet a particular need. 
+explain how your proposal will meet a particular need.
 
 3. Other users must express interest in your proposal for it to be considered.
-Godot is community-driven, if no other users are interested in your proposal,
+Godot is community-driven: if no other users are interested in your proposal,
 it may be closed. It is up to you to draw interest in your proposed feature.
 Start by reaching out on the community channels (Reddit, Discord, IRC, etc.
 see the [Community Channels](http://docs.godotengine.org/en/stable/community/channels.html) doc),
@@ -40,8 +39,9 @@ fast-track the approval process.
 
 ## What to do if your proposal is closed
 
-If your proposal was closed because the template was not filled out, then 
-fill out the template and ask the person who closed the issue to re-open it.
+If your proposal was closed because the template was not filled out, then
+fill out the [template](.github/ISSUE_TEMPLATE/feature---enhancement-proposal.md)
+and ask the person who closed the issue to re-open it.
 
 If your proposal was closed as a duplicate and had a different approach to solving
 the problem described in the linked proposal, please comment in the linked proposal
@@ -49,13 +49,13 @@ with your own proposal. You don't need to copy-paste your whole proposal's text.
 Instead, rephrase the main ideas and add mockups if needed.
 
 If your proposal was closed because of lack of interest, then try to build up
-some interest on the [Community Channels](http://docs.godotengine.org/en/stable/community/channels.html)
+some interest on the [community channels](http://docs.godotengine.org/en/stable/community/channels.html)
 and then ask the person who closed the issue to re-open it.
 
 If your proposal was closed because a core contributor determined that it was
 not worth pursuing and you feel that it was wrongly closed, then feel free
-to join the developer IRC group and have a more in-depth discussion with 
-other core developers about the feature.
+to join the developer IRC channel (`#godotengine-devel` on `irc.freenode.net`)
+and have a more in-depth discussion with other core developers about the feature.
 
 ## How core developers evaluate proposals
 
@@ -65,33 +65,39 @@ developers when considering proposals and for proposal-makers in drafting their
 proposals.
 
 #### 1. Does the proposal comply with the rules?
+
 Read the proposal and check to see that it complies with the above-stated rules.
 If it does not, close the proposal.
 
 #### 2. How much support is the proposal receiving?
+
 Evaluate the amount of support the proposal is receiving. This is an ongoing
 analysis. If a proposal receives little support at first, it may receive
 additional support later on.
 
 #### 3. Can this proposal be implemented with an addon?
+
 Evaluate whether it is possible for the proposal to be implemented in an addon.
 If it is possible for the proposal to be in an addon, it is less likely to be
-accepted. 
+accepted.
 
 #### 4. Does this proposal benefit most users?
+
 Determine whether this proposal benefits all users, or just certain users.
 For example, a feature that can only be used for 3D FPS games is less
 likely to be accepted than a feature that benefits all 3D games.
 
 #### 5. Can this proposal be implemented in a robust, general-purpose way?
+
 Determine whether the feature can be implemented in a robust way that benefits
 all use-cases. For example, many games use an inventory system, but every game
-implements inventory differently. Accordingly, a proposal for an inventory 
-system will likely not be accepted because it would be impossible for us to 
+implements inventory differently. Accordingly, a proposal for an inventory
+system will likely not be accepted because it would be impossible for us to
 implement an inventory system that works for most users that need an inventory
 in their game.
 
 #### 6. Does this proposal help users overcome a limitation?
+
 Proposals that overcome a specific limitation are more likely to be accepted
 than proposals that are just helpful. In short, need-to-have features will be
 prioritized over nice-to-have features. Further, the core developers prioritize
@@ -99,11 +105,13 @@ changes that enable users to implement features themselves over implementing
 those same features in core.
 
 #### 7. How complex would the proposed feature be?
+
 A highly complex new feature involving substantial changes to core is less likely
 to be accepted than a feature that can be contained within a single node, or a
 group of nodes.
 
 #### 8. Can the feature be worked around in script with a few lines?
+
 If the feature is only intended to save users a few lines of code it is unlikely
 to be accepted.
 
