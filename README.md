@@ -10,6 +10,9 @@ then be discussed with fellow Godot users and contributors. If a
 proposal is considered good to implement, it will be approved by a
 core developer.
 
+**Proposals should be made by opening an issue, not a pull request.**
+Don't fork this repository to open a proposal.
+
 ## Rules for submitting a proposal
 
 1. Only proposals that properly fill out the template will be considered. If
