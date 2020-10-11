@@ -15,8 +15,13 @@ Don't fork this repository to open a proposal.
 
 ## Rules for submitting a proposal
 
-1. Only proposals that properly fill out the template will be considered. If
-the template is not filled out or is filled out improperly, it will be closed.
+1. Only proposals that fill out the template completely will be considered. You
+are free to answer the questions as you see fit, but do note that high-quality,
+elaborate proposals are more likely to be accepted. The template is there to
+help you think on the matter, and may not always apply to your particular
+proposal. But if a proposal misses some vital information as suggested in the
+template, it *may* be closed. Likewise, if a proposal contains inappropriate
+content, it *will* be closed.
 
 2. Please open one proposal per feature requested. Do not cram multiple feature
 requests in a single proposal, as this makes it harder to discuss features
