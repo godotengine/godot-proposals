@@ -1,0 +1,22 @@
+name: Meta Issue
+description: Issue with the proposal repository structure.
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      - This template is for meta issues only. If you have a proposal for Godot Engine itself, select the proposal issue type.
+
+- type: textarea
+  attributes:
+    label: Describe the problem or limitation you are having with the proposals repository
+    placeholder: Example - "There are too many questions in the proposal template."
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Describe the feature / enhancement and how it helps to overcome the problem or limitation
+    placeholder: Example - "We should combine these two options to simplify the proposal process."
+  validations:
+    required: true
