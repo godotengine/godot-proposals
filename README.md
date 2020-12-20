@@ -13,6 +13,10 @@ core developer.
 **Proposals should be made by opening an issue, not a pull request.**
 Don't fork this repository to open a proposal.
 
+> **Tip:** Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
+> to view all open proposals on a single page. This allows for easy searching
+> in proposal titles using <kbd>Ctrl + F</kbd>.
+
 ## Rules for submitting a proposal
 
 1. Only proposals that properly fill out the template will be considered. If
