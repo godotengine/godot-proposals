@@ -17,7 +17,7 @@ Don't fork this repository to open a proposal.
 > to view all open proposals on a single page. This allows for easy searching
 > in proposal titles using <kbd>Ctrl + F</kbd>.
 
-## Rules for submitting a proposal
+## Recommendations for submitting a proposal
 
 1. Only proposals that properly fill out the template will be considered. If
 the template is not filled out or is filled out improperly, it will be closed.
