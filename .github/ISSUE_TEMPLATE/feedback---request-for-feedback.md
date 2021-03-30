@@ -16,3 +16,5 @@ Proposals not following the template below will be closed immediately.
 
 ### Describe the problem or limitation you are having in your project
 
+### Describe what you believe could be the solution
+
