@@ -30,6 +30,11 @@ individually.
 proposal, it is not enough to say it would be "nice" or "helpful". Use the
 template to show how Godot is not currently meeting your needs and then
 explain how your proposal will meet a particular need.
+   * If you feel that you cannot provide highly detailed instructions with the
+     proposal, consider creating a more simple, open-ended issue in the
+     unofficial, community-maintained
+     [Godot Ideas](https://github.com/godot-extended-libraries/godot-ideas)
+     repository.
 
 4. Other users must express interest in your proposal for it to be considered.
 Godot is community-driven: if no other users are interested in your proposal,
