@@ -9,7 +9,7 @@ assignees: ''
 
 <!--
 Please fill in *all* the questions below and don't remove any of them.
-Proposals not following the template below will be closed immediately.
+Proposals not following the template below will not be considered.
 -->
 
 ### Describe the project you are working on
