@@ -1,0 +1,52 @@
+name: Feature / Enhancement proposal
+description: Open a new proposal
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      - Write a descriptive proposal title above.
+      - Search [open](https://github.com/godotengine/godot-proposals/issues) and [closed](https://github.com/godotengine/godot-proposals/issues?q=is%3Aissue+is%3Aclosed) proposals to ensure the feature has not already been suggested.
+
+- type: textarea
+  attributes:
+    label: Describe the project you are working on
+    description: This is important to know the *context* in which the feature is being proposed. Features used in real-world projects are more likely to be added.
+    placeholder: Example - "A 3D space game with heavy use of cut-out animation"
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Describe the problem or limitation you are having in your project
+    placeholder: Example - "The 3D selection tools are cumbersome to use."
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Describe the feature / enhancement and how it helps to overcome the problem or limitation
+    placeholder: Example - "Add keyboard shortcuts to select groups of nodes quickly."
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Describe how your proposal will work, with code, pseudo-code, mock-ups, and/or diagrams
+    placeholder: Example - "When the user presses Ctrl + Shift + G, select all nodes that have the group..."
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: If this enhancement will not be used often, can it be worked around with a few lines of script?
+    placeholder: Example - "This can be worked around with an editor plugin, but it is not particularly convenient."
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Is there a reason why this should be core and not an add-on in the asset library?
+    placeholder: Example - "This is about improving the 3D editor usability out of the box."
+  validations:
+    required: true
