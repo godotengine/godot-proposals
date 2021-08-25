@@ -56,7 +56,7 @@ fast-track the approval process.
 ## What to do if your proposal is closed
 
 If your proposal was closed because the template was not filled out, then
-fill out the [template](.github/ISSUE_TEMPLATE/feature---enhancement-proposal.md)
+fill out the [template](.github/ISSUE_TEMPLATE/feature_enhancement_proposal.yml)
 and ask the person who closed the issue to re-open it.
 
 If your proposal was closed as a duplicate and had a different approach to solving
