@@ -39,7 +39,8 @@ explain how your proposal will meet a particular need.
 4. Other users must express interest in your proposal for it to be considered.
 Godot is community-driven: if no other users are interested in your proposal,
 it may be closed. It is up to you to draw interest in your proposed feature.
-Start by reaching out on the community channels (Reddit, Discord, IRC, etc.
+Start by reaching out on the community channels (Reddit, Discord,
+[Godot Contributors Chat](https://chat.godotengine.org/)), etc.
 see the [Community Channels](http://docs.godotengine.org/en/stable/community/channels.html) doc),
 then create your proposal once you have gained some interest.
 
@@ -70,7 +71,7 @@ and then ask the person who closed the issue to re-open it.
 
 If your proposal was closed because a core contributor determined that it was
 not worth pursuing and you feel that it was wrongly closed, then feel free
-to join the developer IRC channel (`#godotengine-devel` on `irc.freenode.net`)
+to join the [Godot Contributors Chat](https://chat.godotengine.org/)
 and have a more in-depth discussion with other core developers about the feature.
 
 ## How core developers evaluate proposals
