@@ -1,5 +1,5 @@
-name: Feature / Enhancement proposal
-description: Open a new proposal
+name: Screen Orientation Based On The Device Orientation Regardless Of Whether Or Not the User Wants It To
+description: A proposal for additional screen orientation option for mobile platform sensorLandscape setting, which will rotate the screen between landscape and reverse_landscape or between portrait and reverse portrait based on the device orientation regardless of whether or not the user wants it to.
 body:
 
 - type: markdown
@@ -11,42 +11,80 @@ body:
 - type: textarea
   attributes:
     label: Describe the project you are working on
-    description: This is important to know the *context* in which the feature is being proposed. Features used in real-world projects are more likely to be added.
+    description: A 2D topdown rpg having a stardew valley -ish vibe for mobile platform
     placeholder: Example - "A 3D space game with heavy use of cut-out animation"
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Describe the problem or limitation you are having in your project
+    label: The small problem or limitation I'm having in my project is I wanted the screen orientation of my game be the same of what stardew valley screen orientation for mobile platform because its screen orientation rotates regardless the user want it to rotate even the mobile device orientation is locked. I tried to make a code that can access the screen orientation of the game screen to rotate automatically even without the user try to click the auto-rotate icon of their android phone... my code works until it stop working if I re-locked the auto-rotate icon from the upper tab of my phone while the test game run... By the way I am using GDscript... And by the way also, it goes back working if I switch off my phone and then switch it on while the game still running...
     placeholder: Example - "The 3D selection tools are cumbersome to use."
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Describe the feature / enhancement and how it helps to overcome the problem or limitation
+    label: i wish there is an auto-rotate detection if locked or unlocked in godot to solve my small problem
+
+like this one.....
+
+if (android.provider.Settings.System.getInt(getContentResolver(), Settings.System.ACCELEROMETER_ROTATION, 0) == 1){
+        Toast.makeText(getApplicationContext(), "Auto Rotate is ON", Toast.LENGTH_SHORT).show();
+
+    }
+    else{
+        Toast.makeText(getApplicationContext(), "Auto Rotate is OFF", Toast.LENGTH_SHORT).show();
+    }
     placeholder: Example - "Add keyboard shortcuts to select groups of nodes quickly."
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Describe how your proposal will work, with code, pseudo-code, mock-ups, and/or diagrams
+    label: extends Node2D
+
+var orientation_ctr = 0
+var ystring
+var ACCELEROMETER
+
+
+func _process(delta):
+	ACCELEROMETER = Input.get_accelerometer()
+	
+	ystring = ACCELEROMETER.y
+
+		
+
+	if ystring >= 8:
+		
+		if orientation_ctr == 0:
+			OS.screen_orientation = OS.SCREEN_ORIENTATION_LANDSCAPE
+			orientation_ctr += 1
+		elif orientation_ctr == 1:
+			OS.screen_orientation = OS.SCREEN_ORIENTATION_REVERSE_LANDSCAPE
+			orientation_ctr = 0
+
+
+		
+	$"Label 1".text = "Y axis: %d" % ystring
+  
+  # this code works smoothly even the auto-rotate icon of the phone is locked i can still auto-rotate my game screen  until it stop working if i re-locked the auto-rotate icon from the upper tab of my phone while the test game keeps on running and so the auto-rotate of my game stop also...
+  
     placeholder: Example - "When the user presses Ctrl + Shift + G, select all nodes that have the group..."
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: If this enhancement will not be used often, can it be worked around with a few lines of script?
+    label: If this enhancement will not be used often, I think it can be worked around with a few lines of script
     placeholder: Example - "This can be worked around with an editor plugin, but it is not particularly convenient."
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Is there a reason why this should be core and not an add-on in the asset library?
+    label: I don't know how to decide if there is a reason why this should be core and not an add-on in the asset library.
     placeholder: Example - "This is about improving the 3D editor usability out of the box."
   validations:
     required: true
