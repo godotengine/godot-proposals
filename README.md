@@ -34,9 +34,9 @@ the necessary knowledge to implement it in the engine, feel free to open a
 instead of an [*issue*](https://github.com/godotengine/godot-proposals/issues/new/choose).
 
 A valid feature proposal will be held open to allow fellow Godot users and
-contributors weigh in on the suggestion and its implementation. While all
+contributors to weigh in on the suggestion and its implementation. While all
 opinions are considered, a core developer must approve the feature and its
-implementation for a proposal to be considered good to implement.
+implementation for a proposal to be considered ready to implement.
 
 **Proposals should be made by opening an issue or a discussion, not a pull request.**
 Don't fork this repository to open a proposal.
