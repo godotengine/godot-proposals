@@ -1,23 +1,51 @@
 # Godot Improvement Proposals
 
-In order to improve the workflow of proposing, discussing, reviewing
-and later on implementing features or enhancements in Godot Engine,
-this repository is used to centralize all the proposals in one place
-apart from bug reports.
+This repository serves as the central hub for proposing, discussing, and
+reviewing new features and enhancements in Godot engine. While there exists
+some leeway, most changes made to the engine must go through the proposal
+process first. The goal is to determine whether the suggestion makes sense
+for the majority of Godot users, and to figure out the best approach to
+implement it.
 
-Proposals are made by opening issues in this repository, which will
-then be discussed with fellow Godot users and contributors. If a
-proposal is considered good to implement, it will be approved by a
-core developer.
-
-**Proposals should be made by opening an issue, not a pull request.**
-Don't fork this repository to open a proposal.
+As such, everyone is welcome to participate in ongoing discussions, or start
+a new one.
 
 > **Tip:** Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
 > to view all open proposals on a single page. This allows for easy searching
 > in proposal titles using <kbd>Ctrl + F</kbd>.
 
+Bug reports are not a subject of the proposal process. If you experience
+an issue while using Godot that cannot be attributed to a missing feature,
+please open a report in the [main Godot repository](https://github.com/godotengine/godot).
+Feel free to open a pull-request based on any bug report as well!
+
+## Suggesting improvements
+
+You have two options to make a suggestion for the future of the engine. You
+can either open a proposal [**Issue**](https://github.com/godotengine/godot-proposals/issues/new/choose),
+or you can create an open [**Discussion**](https://github.com/godotengine/godot-proposals/discussions/new).
+
+Proposal *issues* are required to explain in technical detail how the suggested change
+should be implemented. It is also preferred that the submitter of a proposal is
+ready to implement it if it was approved. If you have a more general idea for
+a feature but are not well versed in Godot's architecture or do not possess
+the necessary knowledge to implement it in the engine, feel free to open a
+[*discussion*](https://github.com/godotengine/godot-proposals/discussions/new)
+instead of an [*issue*](https://github.com/godotengine/godot-proposals/issues/new/choose).
+
+A valid feature proposal will be held open to allow fellow Godot users and
+contributors weigh in on the suggestion and its implementation. While all
+opinions are considered, a core developer must approve the feature and its
+implementation for a proposal to be considered good to implement.
+
+**Proposals should be made by opening an issue or a discussion, not a pull request.**
+Don't fork this repository to open a proposal.
+
 ## Rules for submitting a proposal
+
+> **Note:** The following points describe requirements for a proposal issue. A
+> [discussion](https://github.com/godotengine/godot-proposals/discussions/new),
+> on the other hand, can be started in any form.
 
 1. Only proposals that properly fill out the template will be considered. If
 the template is not filled out or is filled out improperly, it will be closed.
@@ -30,6 +58,7 @@ individually.
 proposal, it is not enough to say it would be "nice" or "helpful". Use the
 template to show how Godot is not currently meeting your needs and then
 explain how your proposal will meet a particular need.
+
    * If you feel that you cannot provide highly detailed instructions with the
      proposal, consider creating a more simple, open-ended issue in the
      unofficial, community-maintained
@@ -62,8 +91,8 @@ and ask the person who closed the issue to re-open it.
 
 If your proposal was closed as a duplicate and had a different approach to solving
 the problem described in the linked proposal, please comment in the linked proposal
-with your own proposal. You don't need to copy-paste your whole proposal's text.
-Instead, rephrase the main ideas and add mockups if needed.
+with your own idea. You don't need to copy-paste your whole proposal's text. Instead,
+rephrase the main ideas and add mockups if needed.
 
 If your proposal was closed because of lack of interest, then try to build up
 some interest on the [community channels](http://docs.godotengine.org/en/stable/community/channels.html)
