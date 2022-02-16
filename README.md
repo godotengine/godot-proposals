@@ -1,7 +1,7 @@
 # Godot Improvement Proposals
 
 This repository serves as the central hub for proposing, discussing, and
-reviewing new features and enhancements in Godot engine. While there exists
+reviewing new features and enhancements in Godot Engine. While there exists
 some leeway, most changes made to the engine must go through the proposal
 process first. The goal is to determine whether the suggestion makes sense
 for the majority of Godot users, and to figure out the best approach to
