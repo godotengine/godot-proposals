@@ -2,6 +2,10 @@
 blank_issues_enabled: false
 
 contact_links:
+  - name: Share and discuss ideas
+    url: https://github.com/godotengine/godot-proposals/discussions
+    about: Discuss any idea related to improving Godot
+
   - name: Main Godot repository
     url: https://github.com/godotengine/godot
-    about: Please report bugs on the main Godot repository, not here.
+    about: Report bugs on the main Godot repository

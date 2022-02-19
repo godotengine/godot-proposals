@@ -1,5 +1,5 @@
-name: Feature / Enhancement proposal
-description: Open a new proposal
+name: Feature implementation proposal
+description: Propose a possible solution to solve an engine limitation
 body:
 
 - type: markdown
