@@ -12,7 +12,7 @@ a new one.
 
 > **Tip:** Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
 > to view all open proposals on a single page. This allows for easy searching
-> in proposal titles using <kbd>Ctrl + F</kbd>.
+> in proposal titles using <kbd>Ctrl + F</kbd> or <kbd>Cmd + F</kbd>.
 
 Bug reports are not a subject of the proposal process. If you experience
 an issue while using Godot that cannot be attributed to a missing feature,
