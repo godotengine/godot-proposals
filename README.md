@@ -22,8 +22,9 @@ Feel free to open a pull-request based on any bug report as well!
 ## Suggesting improvements
 
 You have two options to make a suggestion for the future of the engine. You
-can either open a proposal [**Issue**](https://github.com/godotengine/godot-proposals/issues/new/choose),
-or you can create an open [**Discussion**](https://github.com/godotengine/godot-proposals/discussions/new).
+can either:
+ - open a proposal [**Issue**](https://github.com/godotengine/godot-proposals/issues/new/choose),
+ - or create an open [**Discussion**](https://github.com/godotengine/godot-proposals/discussions/new/).
 
 Proposal *issues* are required to explain in technical detail how the suggested change
 should be implemented. It is also preferred that the submitter of a proposal is
