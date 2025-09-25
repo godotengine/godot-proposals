@@ -23,14 +23,14 @@ Feel free to open a pull-request based on any bug report as well!
 
 You have two options to make a suggestion for the future of the engine. You
 can either open a proposal [**Issue**](https://github.com/godotengine/godot-proposals/issues/new/choose),
-or you can create an open [**Discussion**](https://github.com/godotengine/godot-proposals/discussions/new).
+or you can create an open [**Discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose).
 
 Proposal *issues* are required to explain in technical detail how the suggested change
 should be implemented. It is also preferred that the submitter of a proposal is
 ready to implement it if it was approved. If you have a more general idea for
 a feature but are not well versed in Godot's architecture or do not possess
 the necessary knowledge to implement it in the engine, feel free to open a
-[*discussion*](https://github.com/godotengine/godot-proposals/discussions/new)
+[*discussion*](https://github.com/godotengine/godot-proposals/discussions/new/choose)
 instead of an [*issue*](https://github.com/godotengine/godot-proposals/issues/new/choose).
 
 A valid feature proposal will be held open to allow fellow Godot users and
@@ -44,7 +44,7 @@ Don't fork this repository to open a proposal.
 ## Rules for submitting a proposal
 
 > **Note:** The following points describe requirements for a proposal issue. A
-> [discussion](https://github.com/godotengine/godot-proposals/discussions/new),
+> [discussion](https://github.com/godotengine/godot-proposals/discussions/new/choose),
 > on the other hand, can be started in any form.
 
 1. Only proposals that properly fill out the template will be considered. If
