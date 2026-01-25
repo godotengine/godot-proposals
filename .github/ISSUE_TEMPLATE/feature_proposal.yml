@@ -1,52 +1,58 @@
-name: Feature implementation proposal
-description: Propose a possible solution to solve an engine limitation
+name: Write an improvement proposal specification
+description: Propose an improvement with a high level of detail.
 body:
 
-- type: markdown
-  attributes:
-    value: |
-      - Write a descriptive proposal title above.
-      - Search [open](https://github.com/godotengine/godot-proposals/issues) and [closed](https://github.com/godotengine/godot-proposals/issues?q=is%3Aissue+is%3Aclosed) proposals to ensure the feature has not already been suggested.
+  - type: markdown
+    attributes:
+      value: |
+        - Choose a descriptive title above that differentiates your proposal from other, similar proposals.
 
-- type: textarea
-  attributes:
-    label: Describe the project you are working on
-    description: This is important to know the *context* in which the feature is being proposed. Features used in real-world projects are more likely to be added.
-    placeholder: Example - "A 3D space game with heavy use of cut-out animation"
-  validations:
-    required: true
+        ### Before you start
+        - Review the [Rules for submitting a proposal](https://github.com/godotengine/godot-proposals?tab=readme-ov-file#rules-for-submitting-a-proposal). If you fail to comply with them, the proposal will be closed.
+        - Search [existing proposals](https://github.com/godotengine/godot-proposals/issues?q=is%3Aissue) for related or duplicate proposals.
+        - Search the internet and [asset library](https://godotengine.org/asset-library/asset) for assets that could solve your problem without an engine change.
 
-- type: textarea
-  attributes:
-    label: Describe the problem or limitation you are having in your project
-    placeholder: Example - "The 3D selection tools are cumbersome to use."
-  validations:
-    required: true
+  - type: textarea
+    attributes:
+      label: Problem or limitation
+      description: |+
+        Describe the problem or limitation you are facing while working on your project.
+        It is not enough to say a feature would be "nice" or "helpful".
+        Describe how the lack of it is impacting your ability to make games.
+        You should also describe which workarounds you tried and link related proposals. If you do
+        not provide a well-founded motivation, your proposal will be closed.
+      placeholder: |+
+        <Example>
+        The 3D selection tools are cumbersome to use.
+        [more text here...]
+    validations:
+      required: true
 
-- type: textarea
-  attributes:
-    label: Describe the feature / enhancement and how it helps to overcome the problem or limitation
-    placeholder: Example - "Add keyboard shortcuts to select groups of nodes quickly."
-  validations:
-    required: true
+  - type: textarea
+    attributes:
+      label: Proposed improvement
+      description: |+
+        Describe how to overcome the limitation you described above.
+        It is not enough to describe just the idea; your proposal should make all the necessary design decisions
+        such that they can be discussed by the community. Include images, mock-ups, diagrams, code, if applicable.
+        Also consider describing the positive impact your proposal could have.
+        If your solution lacks in detail, is ambiguous, or otherwise low-effort, your proposal will be closed.
+      placeholder: |+
+        <Example>
+        Add keyboard shortcuts to select groups of nodes quickly.
+        When the user presses Ctrl + Shift + G, select all nodes that have the group...
+        [more text here...]
+    validations:
+      required: true
 
-- type: textarea
-  attributes:
-    label: Describe how your proposal will work, with code, pseudo-code, mock-ups, and/or diagrams
-    placeholder: Example - "When the user presses Ctrl + Shift + G, select all nodes that have the group..."
-  validations:
-    required: true
-
-- type: textarea
-  attributes:
-    label: If this enhancement will not be used often, can it be worked around with a few lines of script?
-    placeholder: Example - "This can be worked around with an editor plugin, but it is not particularly convenient."
-  validations:
-    required: true
-
-- type: textarea
-  attributes:
-    label: Is there a reason why this should be core and not an add-on in the asset library?
-    placeholder: Example - "This is about improving the 3D editor usability out of the box."
-  validations:
-    required: true
+  - type: checkboxes
+    id: actionable
+    attributes:
+      label: Proposal review
+      description: |+
+        Please ask yourself honestly: Is your description above specific enough for contributors to implement this improvement without improvising the details?
+        If not, consider creating a [discussion](https://github.com/godotengine/godot-proposals/discussions) instead.
+        Repeatedly posting unactionable or low-effort proposals may lead to restrictions on your ability to post new proposals.
+      options:
+        - label: Yes, this proposal is highly specific and actionable.
+          required: true
