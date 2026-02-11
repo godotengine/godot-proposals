@@ -32,6 +32,10 @@ thoroughly describe the element's behavior.
 If you have a more general idea for an improvement without specific details, please start
 a [**discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose) instead.
 
+We also encourage you to iterate and expand upon ideas of other contributors and try to formulate
+proposal [**issues**](https://github.com/godotengine/godot-proposals/issues/new/choose) (with appropriate attribution to those other contributors). This helps
+the ideas come to fruition by giving the community something specific to discuss or implement.
+
 All proposals, both **issues** and **discussions**, will be discussed and evaluated by the
 community, and may even end up being implemented by a fellow motivated Godot contributor.
 Keep in mind though that all changes need the approval of Godot maintainers before they can
