@@ -10,7 +10,9 @@ implement it.
 As such, everyone is welcome to participate in ongoing discussions, or start
 a new one.
 
-> **Tip:** Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
+> [!TIP]
+>
+> Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
 > to view all open proposals on a single page. This allows for easy searching
 > in proposal titles using <kbd>Ctrl + F</kbd> or <kbd>Cmd + F</kbd>.
 
@@ -41,9 +43,20 @@ community, and may even end up being implemented by a fellow motivated Godot con
 Keep in mind though that all changes need the approval of Godot maintainers before they can
 be merged.
 
+> [!NOTE]
+>
+> As per the
+> [guidelines on AI-assisted contributions](https://contributing.godotengine.org/en/latest/pull_requests/pull_request_guidelines.html#ai-assisted-contributions),
+> it is **not allowed** to submit proposals that were entirely written by AI.
+> Proposals not following these guidelines will be closed.
+>
+> This applies to both proposal issues and discussions.
+
 ## Rules for submitting a proposal
 
-> **Note:** The following points describe requirements for a proposal issue. A
+> [!NOTE]
+>
+> The following points describe requirements for a proposal issue. A
 > [discussion](https://github.com/godotengine/godot-proposals/discussions/new/choose),
 > on the other hand, can be started in any form.
 
