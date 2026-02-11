@@ -21,25 +21,21 @@ Feel free to open a pull-request based on any bug report as well!
 
 ## Suggesting improvements
 
-You have two options to make a suggestion for the future of the engine. You
-can either open a proposal [**Issue**](https://github.com/godotengine/godot-proposals/issues/new/choose),
-or you can create an open [**Discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose).
+You have two options to suggest future improvements for the engine:
+[**issues**](https://github.com/godotengine/godot-proposals/issues/new/choose) and [**discussions**](https://github.com/godotengine/godot-proposals/discussions/new/choose).
 
-Proposal *issues* are required to explain in technical detail how the suggested change
-should be implemented. It is also preferred that the submitter of a proposal is
-ready to implement it if it was approved. If you have a more general idea for
-a feature but are not well versed in Godot's architecture or do not possess
-the necessary knowledge to implement it in the engine, feel free to open a
-[*discussion*](https://github.com/godotengine/godot-proposals/discussions/new/choose)
-instead of an [*issue*](https://github.com/godotengine/godot-proposals/issues/new/choose).
+To create a proposal [**issue**](https://github.com/godotengine/godot-proposals/issues/new/choose),
+you should have a well-developed idea of the change you're suggesting, and put effort into a highly
+detailed description of it. For instance, when proposing a new UI element, provide mockups and
+thoroughly describe the element's behavior.
 
-A valid feature proposal will be held open to allow fellow Godot users and
-contributors to weigh in on the suggestion and its implementation. While all
-opinions are considered, a core developer must approve the feature and its
-implementation for a proposal to be considered ready to implement.
+If you have a more general idea for an improvement without specific details, please start
+a [**discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose) instead.
 
-**Proposals should be made by opening an issue or a discussion, not a pull request.**
-Don't fork this repository to open a proposal.
+All proposals, both **issues** and **discussions**, will be discussed and evaluated by the
+community, and may even end up being implemented by a fellow motivated Godot contributor.
+Keep in mind though that all changes need the approval of Godot maintainers before they can
+be merged.
 
 ## Rules for submitting a proposal
 
@@ -47,68 +43,53 @@ Don't fork this repository to open a proposal.
 > [discussion](https://github.com/godotengine/godot-proposals/discussions/new/choose),
 > on the other hand, can be started in any form.
 
-1. Only proposals that properly fill out the template will be considered. If
-the template is not filled out or is filled out improperly, it will be closed.
+1. **Put effort into the problem statement.** It is not enough to say a feature would be
+"nice" or "helpful". Describe how the lack of it is impacting your ability to make games.
+You should also describe which workarounds you tried and link related proposals. If you do
+not provide a well-founded motivation, your proposal will be closed.
 
-2. Please open one proposal per feature requested. Do not cram multiple feature
-requests in a single proposal, as this makes it harder to discuss features
-individually.
+2. **Be specific with your solution.** It is not enough to describe just the idea; your proposal
+should make all the necessary design decisions such that they can be discussed by the community.
+Include images, mock-ups, diagrams, code, if applicable. If your solution lacks in detail,
+is ambiguous, or otherwise low-effort, your proposal will be closed.
 
-3. All proposals must be linked to a substantive use-case. In justifying your
-proposal, it is not enough to say it would be "nice" or "helpful". Use the
-template to show how Godot is not currently meeting your needs and then
-explain how your proposal will meet a particular need.
+3. **Use one issue per proposal.** Do not cram multiple feature requests into a single proposal,
+   as this makes it harder to discuss features individually.
 
-   * If you feel that you cannot provide highly detailed instructions with the
-     proposal, consider creating a more simple, open-ended issue in the
-     unofficial, community-maintained
-     [Godot Ideas](https://github.com/godot-extended-libraries/godot-ideas)
-     repository.
-
-4. Other users must express interest in your proposal for it to be considered.
-Godot is community-driven: if no other users are interested in your proposal,
-it may be closed. It is up to you to draw interest in your proposed feature.
-Start by reaching out on the community channels (Reddit, Discord,
-[Godot Contributors Chat](https://chat.godotengine.org/)), etc.
-see the [Community Channels](http://docs.godotengine.org/en/stable/community/channels.html) doc),
-then create your proposal once you have gained some interest.
-
-5. You can make a PR implementing the feature in the main repository before
-making a proposal. However, if it is a large change, a core developer may
-require that you make a proposal before your PR can be merged. It is always
-better to make and discuss a proposal before spending your time implementing
-a new feature.
-
-6. If you or another user is capable of making a PR, include that fact in
-the issue or in a subsequent comment so that a core contributor can
-fast-track the approval process.
+4. **Have patience.** Godot is community-driven: if no other users are interested in
+your proposal, it will not be added to Godot. Remember that the more effort you put into your
+proposal, the more likely it is to gather attention. You could also share and discuss it in
+Godot's [community channels](https://godotengine.org/community/) to draw attention to it.
 
 ## What to do if your proposal is closed
 
-If your proposal was closed because the template was not filled out, then
-fill out the [template](.github/ISSUE_TEMPLATE/feature_proposal.yml)
-and ask the person who closed the issue to re-open it.
+We usually only close invalid, duplicate, and rejected proposals. We do not close proposals
+lightly, but we can make mistakes: If you think we should re-open it, please join us in the
+[contributor's chat](https://chat.godotengine.org) and describe the situation.
 
-If your proposal was closed as a duplicate and had a different approach to solving
-the problem described in the linked proposal, please comment in the linked proposal
-with your own idea. You don't need to copy-paste your whole proposal's text. Instead,
-rephrase the main ideas and add mockups if needed.
+- **If your proposal was closed as invalid**, please review the rules above and put more
+effort into your next proposal.
 
-If your proposal was closed because of lack of interest, then try to build up
-some interest on the [community channels](http://docs.godotengine.org/en/stable/community/channels.html)
-and then ask the person who closed the issue to re-open it.
+- **If your proposal was closed as a duplicate**, please review the linked proposal. If it is
+truly duplicate, or more detailed than yours, we encourage you to support that proposal and
+contribute to its discussion. If you think your proposal is sufficiently different to stand
+on its own, please appeal this decision by making a comment.
 
-If your proposal was closed because a core contributor determined that it was
-not worth pursuing and you feel that it was wrongly closed, then feel free
-to join the [Godot Contributors Chat](https://chat.godotengine.org/)
-and have a more in-depth discussion with other core developers about the feature.
+- **If your proposal was rejected**, please review the stated problem and see if you can find
+another solution. Often, solutions that are rejected for Godot can be implemented as a
+[plugin](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/index.html) or
+[GDExtension](https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/index.html).
 
-## How core developers evaluate proposals
+## How we evaluate proposals
 
-The following is a list of considerations that core developers use when deciding
-to accept, close, or leave a proposal open. It is intended to be useful for core
-developers when considering proposals and for proposal-makers in drafting their
-proposals.
+The following is a list of considerations that Godot maintainers use when deciding
+to accept, close, or leave a proposal open.
+
+These considerations are in balance; no one is more important than another.
+Godot maintainers have discretion to weigh the factors as they see fit.
+
+In addition, consider reading [this article](https://contributing.godotengine.org/en/latest/engine/guidelines/best_practices.html)
+which describes technical considerations of Godot maintainers for new features.
 
 #### 1. Does the proposal comply with the rules?
 
@@ -121,9 +102,10 @@ Evaluate the amount of support the proposal is receiving. This is an ongoing
 analysis. If a proposal receives little support at first, it may receive
 additional support later on.
 
-#### 3. Can this proposal be implemented with an addon?
+#### 3. Can this proposal be implemented with an addon or GDExtension?
 
-Evaluate whether it is possible for the proposal to be implemented in an addon.
+Evaluate whether it is possible for the solution to be implemented as an addon
+or GDExtension.
 If it is possible for the proposal to be in an addon, it is less likely to be
 accepted.
 
@@ -150,19 +132,13 @@ prioritized over nice-to-have features. Further, the core developers prioritize
 changes that enable users to implement features themselves over implementing
 those same features in core.
 
-#### 7. How complex would the proposed feature be?
+#### 7. How complex would the proposed change be?
 
 A highly complex new feature involving substantial changes to core is less likely
 to be accepted than a feature that can be contained within a single node, or a
 group of nodes.
 
-#### 8. Can the feature be worked around in script with a few lines?
+#### 8. Can the limitation be easily worked around?
 
-If the feature is only intended to save users a few lines of code it is unlikely
+If the feature is only intended to save users a few lines of code, it is unlikely
 to be accepted.
-
-The above considerations are all balanced, no one is more important than another.
-Core developers have discretion to weigh the factors as they see fit.
-
-In addition to the above guideline, consider [this article](https://docs.godotengine.org/en/latest/community/contributing/best_practices_for_engine_contributors.html)
-which outlines what core developers consider when evaluating PRs.
