@@ -45,20 +45,27 @@ be merged.
 > A [**discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose),
 > on the other hand, can be started in any form.
 
-1. **Put effort into the problem statement.** It is not enough to say a feature would be
+1. **Do your research.** Before you post, discuss your idea with the [community](https://godotengine.org/community/),
+to find if other people are experiencing the same problem and brainstorm solutions together.
+Search existing [proposals](https://github.com/godotengine/godot-proposals/issues) and 
+[ideas](https://github.com/godotengine/godot-proposals/discussions) for potential duplicates.
+And search the internet and [asset library](https://godotengine.org/asset-library/asset) for
+addons that can solve your problem without an engine change.
+
+2. **Put effort into the problem statement.** It is not enough to say a feature would be
 "nice" or "helpful". Describe how the lack of it is impacting your ability to make games.
 You should also describe which workarounds you tried and link related proposals. If you do
 not provide a well-founded motivation, your proposal will be closed.
 
-2. **Be specific with your solution.** It is not enough to describe just the idea; your proposal
+3. **Be specific with your solution.** It is not enough to describe just the idea; your proposal
 should make all the necessary design decisions such that they can be discussed by the community.
 Include images, mock-ups, diagrams, code, if applicable. If your solution lacks in detail,
 is ambiguous, or otherwise low-effort, your proposal will be closed.
 
-3. **Use one issue per proposal.** Do not cram multiple feature requests into a single proposal,
+4. **Use one issue per proposal.** Do not cram multiple feature requests into a single proposal,
    as this makes it harder to discuss features individually.
 
-4. **Have patience.** Godot is community-driven: if no other users are interested in
+5. **Have patience.** Godot is community-driven: if no other users are interested in
 your proposal, it will not be added to Godot. Remember that the more effort you put into your
 proposal, the more likely it is to gather attention. You could also share and discuss it in
 Godot's [community channels](https://godotengine.org/community/) to draw attention to it.
