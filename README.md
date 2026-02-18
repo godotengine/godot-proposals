@@ -1,33 +1,31 @@
 # Godot Improvement Proposals
 
-This repository serves as the central hub for proposing, discussing, and
-reviewing new features and enhancements in Godot Engine. While there exists
-some leeway, most changes made to the engine must go through the proposal
-process first. The goal is to determine whether the suggestion makes sense
-for the majority of Godot users, and to figure out the best approach to
-implement it.
+Welcome to the official Godot improvement proposals repository!
 
-As such, everyone is welcome to participate in ongoing discussions, or start
-a new one.
+Here, the [Godot](https://godotengine.org) community shares and discusses
+ideas to improve the engine. 
 
-> **Tip:** Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
-> to view all open proposals on a single page. This allows for easy searching
-> in proposal titles using <kbd>Ctrl + F</kbd> or <kbd>Cmd + F</kbd>.
+Everyone is welcome to participate. If you have an idea, please read the [introduction below](#how-to-suggest-improvements)
+to get started. We also encourage you to browse existing proposals and participate in their discussions.
+
+> [!TIP]
+> Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
+> to browse proposals, and the [discussions tab](https://github.com/godotengine/godot-proposals/discussions)
+> to browse ideas.
 
 Bug reports are not a subject of the proposal process. If you experience
 an issue while using Godot that cannot be attributed to a missing feature,
-please open a report in the [main Godot repository](https://github.com/godotengine/godot).
-Feel free to open a pull-request based on any bug report as well!
+please [file a bug report](https://github.com/godotengine/godot/issues/new/choose) instead.
 
-## Suggesting improvements
+## How to suggest improvements
 
-You have two options to suggest future improvements for the engine:
-[**issues**](https://github.com/godotengine/godot-proposals/issues/new/choose) and [**discussions**](https://github.com/godotengine/godot-proposals/discussions/new/choose).
+You have two options to suggest improvements for the engine: **issues** and **discussions**.
 
 To create a proposal [**issue**](https://github.com/godotengine/godot-proposals/issues/new/choose),
 you should have a well-developed idea of the change you're suggesting, and put effort into a highly
-detailed description of it. For instance, when proposing a new UI element, provide mockups and
-thoroughly describe the element's behavior.
+detailed description of it. Please read the [rules below](#rules-for-proposal-issues) before
+you create a proposal issue. You may also wish to read about our [evaluation process](#how-we-evaluate-proposals)
+to improve the chances of your proposal being accepted.
 
 If you have a more general idea for an improvement without specific details, please start
 a [**discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose) instead.
@@ -41,10 +39,10 @@ community, and may even end up being implemented by a fellow motivated Godot con
 Keep in mind though that all changes need the approval of Godot maintainers before they can
 be merged.
 
-## Rules for submitting a proposal
+## Rules for proposal issues
 
-> **Note:** The following points describe requirements for a proposal issue. A
-> [discussion](https://github.com/godotengine/godot-proposals/discussions/new/choose),
+> **Note:** The following points describe requirements for a proposal [**issue**](https://github.com/godotengine/godot-proposals/issues/new/choose).
+> A [**discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose),
 > on the other hand, can be started in any form.
 
 1. **Put effort into the problem statement.** It is not enough to say a feature would be
@@ -86,8 +84,9 @@ another solution. Often, solutions that are rejected for Godot can be implemente
 
 ## How we evaluate proposals
 
-The following is a list of considerations that Godot maintainers use when deciding
-to accept, close, or leave a proposal open.
+The following is a list of considerations that Godot maintainers use when deciding to
+[accept](https://contributing.godotengine.org/en/latest/feedback/ideas.html#how-are-proposals-accepted),
+close, or leave a proposal open.
 
 These considerations are in balance; no one is more important than another.
 Godot maintainers have discretion to weigh the factors as they see fit.
@@ -97,7 +96,7 @@ which describes technical considerations of Godot maintainers for new features.
 
 #### 1. Does the proposal comply with the rules?
 
-Read the proposal and check to see that it complies with the above-stated rules.
+Read the proposal and check to see that it complies with the [above-stated rules](#rules-for-proposal-issues).
 If it does not, close the proposal.
 
 #### 2. How much support is the proposal receiving?
@@ -109,7 +108,7 @@ additional support later on.
 #### 3. Can this proposal be implemented with an addon or GDExtension?
 
 Evaluate whether it is possible for the solution to be implemented as an addon
-or GDExtension.
+or [GDExtension](https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/index.html).
 If it is possible for the proposal to be in an addon, it is less likely to be
 accepted.
 
