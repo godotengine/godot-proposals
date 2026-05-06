@@ -3,12 +3,13 @@
 Welcome to the official Godot improvement proposals repository!
 
 Here, the [Godot](https://godotengine.org) community shares and discusses
-ideas to improve the engine. 
+ideas to improve the engine.
 
 Everyone is welcome to participate. If you have an idea, please read the [introduction below](#how-to-suggest-improvements)
 to get started. We also encourage you to browse existing proposals and participate in their discussions.
 
 > [!TIP]
+>
 > Use the [Godot proposals viewer](https://godot-proposals-viewer.github.io/)
 > to browse proposals, and the [discussions tab](https://github.com/godotengine/godot-proposals/discussions)
 > to browse ideas.
@@ -39,15 +40,26 @@ community, and may even end up being implemented by a fellow motivated Godot con
 Keep in mind though that all changes need the approval of Godot maintainers before they can
 be merged.
 
-## Rules for proposal issues
+> [!NOTE]
+>
+> As per the
+> [guidelines on AI-assisted contributions](https://contributing.godotengine.org/en/latest/pull_requests/pull_request_guidelines.html#ai-assisted-contributions),
+> we require all proposals to be written by a human.
+> Proposals not following these guidelines will be closed.
+>
+> This applies to both proposal issues and discussions.
 
-> **Note:** The following points describe requirements for a proposal [**issue**](https://github.com/godotengine/godot-proposals/issues/new/choose).
-> A [**discussion**](https://github.com/godotengine/godot-proposals/discussions/new/choose),
+## Rules for submitting a proposal
+
+> [!NOTE]
+>
+> The following points describe requirements for a proposal issue. A
+> [discussion](https://github.com/godotengine/godot-proposals/discussions/new/choose),
 > on the other hand, can be started in any form.
 
 1. **Do your research.** Before you post, discuss your idea with the [community](https://godotengine.org/community/),
 to find if other people are experiencing the same problem and brainstorm solutions together.
-Search existing [proposals](https://github.com/godotengine/godot-proposals/issues) and 
+Search existing [proposals](https://github.com/godotengine/godot-proposals/issues) and
 [ideas](https://github.com/godotengine/godot-proposals/discussions) for potential duplicates.
 And search the internet and [asset library](https://godotengine.org/asset-library/asset) for
 addons that can solve your problem without an engine change.
@@ -55,7 +67,7 @@ addons that can solve your problem without an engine change.
 2. **Use your own words.** You are not allowed to use AI / an LLM to write your proposal.
 AI-written proposals are hard to read and often invent facts and solutions that won't work.
 If you aren't comfortable with English, write your proposal in your mother tongue and use
-dedicated translation software (not a chat bot) to translate it into English. 
+dedicated translation software (not a chat bot) to translate it into English.
 
 3. **Give context to your problem.** To give an example in cooking: Say you wanted to bake
 a cake and found a recipe. Don't write your problem as "I need flour", write "I want to bake
