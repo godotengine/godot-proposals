@@ -104,7 +104,7 @@ close, or leave a proposal open.
 These considerations are in balance; no one is more important than another.
 Godot maintainers have discretion to weigh the factors as they see fit.
 
-In addition, consider reading [this article](https://contributing.godotengine.org/en/latest/engine/guidelines/best_practices.html)
+In addition, consider reading [this article](https://contributing.godotengine.org/en/latest/development/engine/best_practices.html)
 which describes technical considerations of Godot maintainers for new features.
 
 #### 1. Does the proposal comply with the rules?
