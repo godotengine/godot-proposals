@@ -10,7 +10,7 @@ body:
         ### Before you start
         - Review the [Rules for submitting a proposal](https://github.com/godotengine/godot-proposals?tab=readme-ov-file#rules-for-proposal-issues). If you fail to comply with them, the proposal will be closed.
         - Search [existing proposals](https://github.com/godotengine/godot-proposals/issues?q=is%3Aissue) for related or duplicate proposals.
-        - Search the internet and [asset library](https://godotengine.org/asset-library/asset) for assets that could solve your problem without an engine change.
+        - Search the internet, [asset library](https://godotengine.org/asset-library/asset), and [asset store](https://store.godotengine.org/) for assets that could solve your problem without an engine change.
 
   - type: textarea
     attributes:
